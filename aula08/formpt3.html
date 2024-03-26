@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Formulário 3</title>
+</head>
+
+<body>
+  <header>
+    <h1>Formulário</h1>
+  </header>
+
+  <main>
+    <form action="#">
+
+      <!-- Fieldset é a delimitação de uma parte específica do formulário -->
+      <!-- Legend é a descrição do fieldset -->
+      <fieldset>
+        <legend>Dados do usuário</legend>
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome">
+
+        <label for="email">E-mail: </label>
+        <input type="text" id="email"> <br><br>
+
+        <label for="endereco">Endereço: </label>
+        <input type="text" id="endereco">
+
+        <label for="cep">CEP: </label>
+        <input type="text" id="cep" maxlength="9" placeholder="Ex.: 90876-409"> <br><br>
+
+        <label for="data">Data: </label>
+        <input type="date" id="data"> <br><br>
+      </fieldset>
+
+      <br><br>
+
+      <fieldset>
+        <legend>Comentário</legend>
+        <textarea nome="tabela1" id="avaliacao" cols="30" rows="10" placeholder="Deixe seu comentário aqui"
+          maxlength="50"></textarea> <br><br>
+        <!-- Atributo 'maxlegth' configura a quantidade máxima de caracter na textarea -->
+      </fieldset>
+
+      <br><br>
+
+      <fieldset>
+        <legend>Regiões SP</legend>
+        <label for="locaisSP">Região de São Paulo que você mora: </label>
+        <select name="zonaSP" id="locaisSP" required="required">
+          <option value="" selected disabled>Regiões de SP</option>
+          <option value="zNorte">Zona Norte</option>
+          <option value="zOeste">Zona Oeste</option>
+          <option value="zLeste">Zona Leste</option>
+          <option value="zCentral">Zona Central</option>
+          <option value="zSul">Zona Sul</option>
+        </select> <br><br>
+      </fieldset>
+      <br><br>
+      <input type="submit" value="Enviar">
+    </form>
+  </main>
+
+  <footer>
+    <small>Todos os direitos reservados &reg;</small>
+  </footer>
+</body>
+
+</html>

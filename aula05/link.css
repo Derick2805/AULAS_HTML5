@@ -1,0 +1,21 @@
+body {
+  background-color: palegreen;
+}
+
+h1 {
+  color: red;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: black;
+}
+
+h2 {
+  color: orange;
+  background-color: purple;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+  color: yellow;
+  background-color:blueviolet;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
